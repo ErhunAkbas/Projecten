@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no"/>
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<meta name="theme-color" content="#b9bdb9">
+	<link rel="stylesheet" href="animate.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+	<body class="animated bounceInDown">
+		<div class="container">
+			<header class="header"><img src="fotos/logo.png" alt=""></header>
+				<nav class="animated fadeInDown">
+					<ul>
+						<li class="border"><i class="fa fa-home"></i><a href="#">Home</a></li>
+						<li><i class="fa fa-book"></i><a href="#">Pages</a></li>
+						<li><i class="fa fa-pencil"></i><a href="#">Portfolio</a></li>
+						<li><i class="fa fa-rss"></i><a href="#">Blog</a></li>
+						<li><i class="fa fa-camera"></i><a href="#">Gallery</a></li>
+						<li><i class="fa fa-hashtag"></i><a href="#">Shortcodes</a></li>
+						<li><i class="fa fa-search"></i><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			<div class="handle">Menu</div>
+			<div class="banner">
+				<img class="bannerfoto" src="fotos/banner.jpg">
+				<h1>Let's talk business</h1>
+				<p>It is a long established fact that a reader will<br>be distracted by the readable content of a<br>page when looking at its layout.</p>
+				<p>The point of using Lorem Ipsum is that is has <br>a more-or-less normal distribution of letters, <br> as opposed to using 'Content here, content here', making it look like readable English.</p>
+				<p>Many desktop publishing packages and web <br> page editors now use Lorem Ipsum as their <br>default model text, and a search for 'lorem <br> ipsum' will uncover many web sites still <br>in their infancy.</p>
+			</div>
+			<div class="producten">
+				<div class="product">
+					<figure><img src="fotos/fade-slider.png"></figure>
+					<h1>Professional Fade Slider</h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen.</p><br>
+					<a href="+ click for fade slider">+ click for fade slider</a>
+				</div>
+				<div class="product">
+					<figure><img src="fotos/nivo-slider.png"></figure>
+					<h1>Awesome Nivo Slider</h1>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don’t look even slightly believable..</p><br>
+					<a href="+ click for nivo slider">+ click for nivo slider</a>
+				</div>
+				<div class="product">
+					<figure><img src="fotos/bonus-3d-slider.png"></figure>
+					<h1>OverALL Bonus 3D Slider!</h1>
+					<p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p><br>
+					<a href="+ click for bonus slider">+ click for bonus slider</a>
+				</div>
+				<div class="footer">
+					<p>The website was put together by Erhun</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			$('.handle').on('click', function(){
+				$('nav ul').toggleClass('showing');
+		})
+		</script>
+	</body>
+</html>

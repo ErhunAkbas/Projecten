@@ -1,0 +1,55 @@
+* {margin: 0; padding: 0;}
+
+body#simurg{
+	background: #bdc3c7;
+}
+
+div#container{
+	width: 1200px;
+	margin: 0 auto;
+	background: ;
+	padding: 10px;
+}
+
+ul.top-menu li{
+	display: inline;
+	padding: 10px;
+}
+
+ul.top-menu{
+	background: #34495e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div#header{
+	background: url(fotos/banner.jpg);
+	width: 900px;
+	height: 150px;
+}
+
+
+div#page{
+	background: #ecf0f1;
+	padding: 20px;
+
+}
+div.sidebar{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	padding-right: 50px;
+	width: 250px;
+}
+ul{
+	list-style: none;
+}
+
+span{
+	display: inline-block;
+	width: 150px;
+}
+
+div.content{
+	margin-left: 310px;
+}

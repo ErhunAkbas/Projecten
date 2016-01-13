@@ -1,0 +1,18 @@
+body{
+	background-image: url(../fotos-passie/games2/background.jpg);
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: arial;
+}
+
+div{
+	width: 900px;
+	background-color: rgba(255,255,255,0.3);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-left: 12px;
+	padding-top: 1px;
+	padding-bottom: 5px;
+

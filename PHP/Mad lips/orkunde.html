@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Onkunde</title>
+		<link href="form.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title"><a href="index.html">Mad libs</a></h1>
+			<ul>
+				<li><a href="index.html">Er heerst paniek...</a></li>
+				<li><a href="orkunde.html">Onkunde</a></li>
+				<li class="danielleedition"><a href="danielle.html">Danielle Edition</a></li>
+			</ul>
+			<div class="content">
+				<h3>Orkunde</h3>
+				<form action="orkunde.php" method="post">
+				<p>
+					<label>Wat zou je graag willen kunnen?</label>
+					<input type="text" name="vaardigheden" placeholder="bijv. Vliegen" required /> 
+				</p>
+				<p>
+					<label>Met welke persoon kun je goed opschieten?</label>
+					<input type="text" name="persoon" placeholder="bijv. Tom" required />
+				</p>
+				<p>
+					<label>Wat is je favoriete getal?</label>
+					<input type="text" name="favogetal" placeholder="bijv. 10" required />
+				</p>
+				<p>
+					<label>Wat heb je altijd bij je als je op vakantie gaat?</label>
+					<input type="text" name="meenemen" placeholder="bijv. Telefoon"required  />
+				</p>
+				<p>
+					<label>Wat is je beste persoonlijke eigenschap?</label>
+					<input type="text" name="beste-eigenschap" placeholder="bijv. Creatief" required />
+				</p>
+				<p>
+					<label>Wat is je slechtste persoonlijke eigenschap?</label>
+					<input type="text" name="slechtste-eigenschap" placeholder="bijv. Asociaal" required />
+				</p>
+				<p>
+					<label>Wat is het ergste dat je kan overkomen?</label>
+					<input type="text" name="overkomen" placeholder="bijv. Been breken" required />
+				</p>
+				<p>
+					<label>&nbsp;</label>
+					<input type="submit" value="Versturen" />
+				</p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+
+    body {
+        background: url(nexus5x.jpg);
+       	min-width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: url(pexelc.jpg);
+      
+     
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background: url(pc.jpg);
+
+    }
+}

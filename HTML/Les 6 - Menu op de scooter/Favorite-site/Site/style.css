@@ -1,0 +1,92 @@
+/* home-page */
+*{margin: 0px;
+padding: 0px;}
+body.home{
+	background-color:#ecf0f1;
+	font-family: arial;
+}
+
+div.container{
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+div.header {
+	background-image: url(../fotos/AllAbautTechBenner.jpg);
+	padding-top: 55px;
+	width: 1000px;
+	height: 125px;
+	color: white;	
+	text-align: center;
+}
+
+/* top-menu */
+
+div.top-menu{
+	text-align: center;
+}
+
+div.top-menu li{
+	display: inline;
+	margin-left: 11px;
+	margin-right: 47px;
+}
+
+div.top-menu ul{
+	display: inline;
+	padding-bottom: 6px;
+	padding-left: 281px;	
+	padding-right: 281px;
+	background-color: #626262;
+}
+
+/*  top-menu-hover */ 
+
+div.top-menu li a{
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+div.top-menu li a:hover{
+	color: white;
+	text-decoration: underline;	
+}
+
+
+/* revieuw */
+
+div.background{
+	background-color: #BDC3C7;
+	width: 1000px;
+	height: 600px;
+}
+
+ul.review{
+	text-align: center;
+}
+
+ul.review li{
+	display: inline-block;
+	margin-left: 65px;
+	margin-right: 45px;
+	padding-bottom:170px;
+}
+
+img.samsung{
+	margin-top: 10px;
+	margin-left: 45px;
+	width: 270px;
+	height: 170px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: grey;
+	text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+body.williams{
+background-color: black;
+font-family: verdana;
+color: grey;
+margin-left: 50px
+}
+
+img.williams{
+border: solid 1px silver;
+}
+
+img.maldonado{
+border: solid 1px silver;
+}
+
+img.senna{
+border: solid 1px silver;
+}
+
+
+a.LinkWilliams{
+color: sliver;
+text-decoration: none;
+}
+
+a.LinkWilliams:hover{
+color: red;
+text-decoration: underline
+}
+
+span{
+color: yellow;
+}

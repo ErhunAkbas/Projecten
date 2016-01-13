@@ -1,0 +1,43 @@
+* {margin: 0; padding: 0;}
+@font-face {
+    font-family: '28_days_laterregular';
+    src: url('28_days_later-webfont.eot');
+    src: url('28_days_later-webfont.eot?#iefix') format('embedded-opentype'),
+         url('28_days_later-webfont.woff2') format('woff2'),
+         url('28_days_later-webfont.woff') format('woff'),
+         url('28_days_later-webfont.ttf') format('truetype'),
+         url('28_days_later-webfont.svg#28_days_laterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.Goedenacht{
+	background: url(night.png) 50% 50% / cover no-repeat fixed;
+}
+
+body.Goedeavond{
+	background: url(evening.png) 50% 50% / cover no-repeat fixed;
+}
+
+body.Goedemiddag{
+	background: url(afternoon.png) 50% 50% / cover no-repeat fixed;
+}
+
+body.Goedemorgen{
+background: url(morning.png) 50% 50% / cover no-repeat fixed;
+}
+
+div.container{
+	width: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	position: absolute;
+	margin-top: -115px;
+	left: 50%;
+	margin-left:-245px;
+	font-family: '28_days_laterregular';
+	color: white;
+	font-size: 70px;
+}
+

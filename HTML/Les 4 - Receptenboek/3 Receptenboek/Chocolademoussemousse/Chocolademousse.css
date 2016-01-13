@@ -1,0 +1,22 @@
+body{
+background-color: lightblue;
+font-family: arial;
+color: darkred;
+}
+
+p.hemels{
+color: grey;
+}
+
+ul{
+margin-top: -10px;
+}
+
+p{
+margin-top: -10px;
+}
+
+img{
+border: solid 2px white;
+padding:4px;
+}

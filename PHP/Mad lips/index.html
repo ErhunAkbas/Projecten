@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mad libs</title>
+		<link href="form.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="title"><a href="index.html">Mad libs</a></h1>
+			<ul>
+				<li><a href="index.html">Er heerst paniek...</a></li>
+				<li><a href="orkunde.html">Onkunde</a></li>
+				<li class="danielleedition"><a href="danielle.html">Danielle Edition</a></li>
+			</ul>
+			<div class="content">
+				<h3>Er heerst paniek...</h3>
+				<form action="mood.php" method="post">
+				<p>
+					<label>Welk dier zou je nooit als huisdier willen hebben?</label>
+					<input type="text" name="huisdier" placeholder="bijv. Een beer"required /> 
+				</p>
+				<p>
+					<label>Wie is de belangrijkste persoon in je leven?</label>
+					<input type="text" name="persoon" placeholder="bijv. Emma" required />
+				</p>
+				<p>
+					<label>In welk land zou je graag willen wonen?</label>
+					<input type="text" name="land" placeholder="bijv. Amerika" required />
+				</p>
+				<p>
+					<label>Wat doe je als je je verveelt?</label>
+					<input type="text" name="verveling" placeholder="bijv. TV kijken" required />
+				</p>
+				<p>
+					<label>Met welk speelgoed speelde je als kind het meest?</label>
+					<input type="text" name="speelgoed" placeholder="bijv. Lego" required />
+				</p>
+				<p>
+					<label>Bij welke docent spijbel je het liefst?</label>
+					<input type="text" name="docent" placeholder="bijv. meneer Vergouwe" required />
+				</p>
+				<p>
+					<label>Als je EUR 100.000,- had, wat zou je dan kopen?</label>
+					<input type="text" name="geld" placeholder="bijv. Auto" required />
+				</p>
+				<p>
+					<label>Wat is je favoriete bezigheid?</label>
+					<input type="text" name="bezigheid" placeholder="bijv. Gamen" required  />
+				</p>
+				<p>
+					<label>&nbsp;</label>
+					<input type="submit" value="Versturen" />
+				</p>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

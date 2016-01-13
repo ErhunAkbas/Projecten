@@ -1,0 +1,27 @@
+body{
+background-color: black;
+font-family: verdana;
+margin: 50px;
+color: white;
+}
+
+h2.laatste-nieuws{
+color: red;
+}
+
+h2.teams{
+color: yellow;
+}
+
+ul.lijst{
+font-size: 2zpx;
+}
+
+a.lijstnaam{
+	color: white;
+	text-decoration: none;
+}
+
+a.lijstnaam:hover{
+	color
+}

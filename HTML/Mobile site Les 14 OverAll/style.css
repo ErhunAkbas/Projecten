@@ -1,0 +1,198 @@
+*{margin: 0; padding: 0; }
+
+
+
+header.header{
+	text-align: center;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	line-height: 50px;
+	padding-left: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 1px;	
+	color: inherit;
+}
+
+ nav ul li {
+	list-style: none;
+	border-bottom: 1px solid #D2D7D3;
+	height: 50px;
+	background-repeat: no-repeat;
+
+
+}
+nav ul{
+	background-color: #EEEEEE;
+	text-align: left;
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: max-height: 0.4s;
+	-ms-transition: max-height: 0.4s;
+	-moz-transition: max-height: 0.4s;
+	-o-transition: max-height: 0.4s;
+	display: block !important;
+}
+.showing{
+	max-height: 20em;
+}
+
+
+}
+li.border{
+	border-top: 1px solid silver;
+
+}
+
+nav ul li:hover{
+	background-color: #BDC3C7;
+	transition: background-color .5s ease-in;
+
+}
+
+
+i{
+	margin-left: 25px;
+}
+
+
+div.banner{
+	background: url(fotos/banner_bg.png);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	padding-top: 15px;
+	width: 95%;
+	height: 396px;
+}
+
+img.bannerfoto{
+	width: 300px;
+}
+
+div.producten{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+div.footer{
+	background: url(fotos/footer_bg.png);
+	clear:both;
+	text-align: center;
+	width: 100%;
+	height: 54px;
+}
+
+@media only screen and (max-width: 650px) {
+	div.handle{
+		width: 100%;
+		background-color: #BDC3C7;
+		text-align: left;
+		box-sizing: border-box;
+		padding: 15px 10px;
+		font-family: "Titillium Web";
+		display: block !important;
+	}
+
+	nav ul li{
+		display: block !important;
+	}
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 960px) {
+    body {
+        background-color: lightblue;
+    }
+
+    div.producten{
+    	width: 500px;
+    }
+
+    div.product figure{
+    	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    div.banner{
+	background: url(fotos/banner_bg.png);
+	width: 80%;
+	height: 396px;
+	margin
+	}
+
+	div.handle{
+		width: 100%;
+		background-color: #BDC3C7;
+		text-align: left;
+		box-sizing: border-box;
+		padding: 15px 10px;
+		font-family: "Titillium Web";
+		display: block !important;
+
+	}
+
+	nav ul li{
+		display: block !important;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	
+	body{
+		background-color: lightgreen;
+	}
+
+	nav ul li {
+
+	}
+	
+	nav {
+	width: 100%;
+	height: 80px;
+	background-color: red;
+	}
+
+
+	}
+	li.border{
+		
+	}
+
+	nav ul li:hover{
+		
+
+	}
+
+	div.handle{
+		display: none;		
+	}
+
+	nav ul li{
+		display: none;
+	}
+}
+
+/* @media only screen and (min-width: 96px) {
+
+	body{
+		background-color: red
+	}
+	nav ul{
+		background-color: red;
+		display: inline;
+	}
+
+	nav ul li{
+		padding: 20px;
+		display: inline;
+	}
+}
+
+
+

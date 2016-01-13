@@ -1,0 +1,101 @@
+/* Erhun Akbas */ 
+* {margin: 0; padding: 0;}
+body{
+	background: url(fotos/background.gif);
+	color: #aabbaa;
+}
+
+div.container{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: black 3px solid;
+	margin-top:10px;
+}
+
+ul li{
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+ul{
+	background: #56614F;
+	padding: 7px;	
+	padding-left: 180px;
+	font-family: Georgia;
+}
+
+a{
+	color:  #aabbaa;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+div.header{
+	background-image: url(fotos/scary1.jpg);
+	background-repeat: no-repeat;
+	padding-left: 260px;
+	text-align: center;
+	padding-top: 70px;
+	background-color:  #241333;
+	height: 140px;
+}
+
+div.content{
+	background: #56614F;
+	padding-left:20px;
+	padding: right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+img.foto1{
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+p.position{
+	position: relative;
+}
+
+img.foto2{
+	position: absolute;
+	top: 0px;
+	left: 725px;
+}
+
+img.foto3{
+	position: absolute;
+	left:665px;
+	top:240px;
+}
+
+img.foto4{
+	position: absolute;
+	right: 250px;
+	top: 78px;
+}
+
+
+
+h1{
+	font-family: 'Times New Roman';
+}
+
+h4{
+	font-family: 'Tahoma';
+}
+
+img.foto5{
+	position: fixed;
+	right:0;
+	bottom: 0;
+
+}

@@ -1,0 +1,38 @@
+body.mercedes{
+background-color: grey;
+margin-left: 50px;
+font-family: verdana ;
+color: white
+}
+
+h1{
+font-family: Tahoma;
+}
+
+img.schumacher{
+border-top: solid 1px red;
+border-right: solid 1px red;
+}
+
+img.mercedes{
+border-top: solid 1px red;
+border-right: solid 1px red;
+}
+
+img.rosberg{
+border-left: solid 1px red;
+}
+
+
+
+
+a{
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+color: red;
+text-decoration: underline;
+}
+

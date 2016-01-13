@@ -1,0 +1,173 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+body {
+	text-align : center;
+	font-family : Tahoma;
+	font-size : 14px;
+	background-color : black;
+}
+
+div.all {
+	text-align : left;
+	width : 700px;
+	margin : 100px auto;
+	min-height : 600px;
+	background-image : url(bg.jpg);
+	border : 4px solid red;
+	position : relative;
+}
+
+a#title{
+	position: absolute;
+	left:20px;
+	top: -70px;
+}
+
+a#hamer{
+	position: absolute;
+	right: 200px;
+	top: -40px;
+	z-index: 20;
+}
+
+a#schroevendraaier{
+	position: absolute;
+	right: 10px;
+	top:70px;
+}
+
+
+a#nijptang{
+	position: absolute;
+	right:-10px;
+	top:250px;
+}
+
+a#zaag{
+	position: absolute;
+	left:-30px;
+	top:60px;
+}
+
+span#toolbox{
+	position: absolute;
+	left:220px;
+	top:180px;
+
+
+}
+
+span#toolbox ul{
+	display: none;
+	list-style: none;
+	padding: 0;
+
+	position: absolute;
+	top:50px;
+	
+}
+
+span#toolbox ul li{
+	background-color: white;
+	width: 100px;
+	padding: 2px;
+	border: black 1px solid;
+}
+
+span#toolbox ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+span#toolbox ul li a:hover{
+	text-decoration: underline;
+}
+
+span#toolbox:hover ul{
+	display: block;
+}
+
+#hamer:hover img{
+	width: 180px;
+}
+
+#zaag:hover img{
+	width: 250px;
+}
+
+#nijptang:hover img{
+	width: 230px;
+}
+
+#schroevendraaier:hover img{
+	width: 250px;
+}
+
+
+div#content{
+	margin-top: 400px;
+	padding: 5px;
+	color: white;
+}
+
+div#content p{
+	padding: 5px;
+}
+
+span.uitleg{
+	position: relative;
+	color: yellow;
+}
+
+span.uitleg span{
+	display: none;
+
+	position: absolute;
+	top: 1.2em;
+	left:0px;
+	width: 100px;
+
+	background-color: white;
+	border: 1px solid black;
+	color: red;
+	padding: 3px;
+}
+
+span.uitleg:hover span{
+	display: block;
+}
+
+div.bar{
+	position: fixed;
+	top:0px;
+	width: 100%;
+	z-index: 99;
+
+	height:25px;
+	background-image: url(bar1.png);
+}
+
+div.bar ul{
+	list-style: none;
+	padding: 2px;
+}
+
+div.bar ul li{
+	display: inline;
+}
+
+div.bar ul li a{
+	color: white;
+	text-decoration: none;
+	margin: 5px 20px;
+}
+
+div.bar:hover{
+	background-image: url(bar2.png);
+}
+
+div.bar:hover a{
+	color: black;
+}

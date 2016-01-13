@@ -1,0 +1,57 @@
+body{
+	font-family: arial;
+}
+
+ul#tabel li span{
+	display: inline-block;
+	width: 122px;
+	margin: 1px
+}
+
+ul li span{
+	font-weight: bold;
+	display: inline-block;
+	width: 350px;
+	margin: 5px;
+	list-style-type: none;
+}
+
+ul{
+	list-style-type: none
+
+}	
+
+h2{
+	border-top: solid;
+	border-bottom: solid;
+}
+span.diploma{
+	width: 95px
+}
+
+li.computer{
+	font-weight: bold;
+}
+
+li.talen-kopje{
+	font-weight: bold;
+}
+
+span.nederlands{
+	width: 90px;
+}
+
+span.engels{
+	width:97px;
+	margin: 1px;
+}
+
+span.turks{
+	width: 90px;
+}
+
+img{
+	position: absolute;
+	left: 350px;
+	bottom: 682px
+}

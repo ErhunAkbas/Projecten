@@ -1,0 +1,47 @@
+body{
+	background-image: url("../fotos/bg.jpg");
+	margin: 0px;
+	text-align: center;
+	font-family: verdana;
+}
+
+div{
+	width: 700px;
+	background-color: rgba(255,255,255,0.5);
+	border: solid turquoise 3px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	text-align: left;
+	
+}
+
+h1{
+	background-color: rgba(0,128,192,0.5);
+	padding: 30px;
+	text-align: center;	
+	color: white;
+	background-image: url("../fotos/GreenFish.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline; 
+}
+
+p.lees{
+	margin-top: -15px;
+}
+
+h2{
+	color: #FFFFEA;
+	background-color: rgba(94,251,110,0.3);
+	padding: 10px;
+	font-style: italic;
+}

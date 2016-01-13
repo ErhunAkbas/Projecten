@@ -1,0 +1,106 @@
+* {margin: 0; padding: 0;}
+body {
+	background-image: url("bg.png");
+	font-family: Tahoma;
+}
+
+.frame{
+	background-color: rgba(0,128,0,0.4);
+	width: 600px;
+	margin: 0 auto;
+	min-height: 500px;	
+	/* put 1 css-rule here below */
+	position: relative;
+}
+
+h1{
+	line-height: 400px;
+	text-align: center;
+	font-size: 50px;
+	color: red;
+	/* put 4 css-rules here below */
+	position: relative;
+	z-index: 99;
+}
+
+h2 {
+	line-height: 200px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	text-align: center;
+	line-height: 100px;
+	font-size: 14px;
+}
+
+#container-1{
+	background-color: rgba(0,0,255,0.4);
+	/* put 5 css-rules here below */
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 20px;
+	left: 180px;
+
+}
+
+.block{
+	border: 2px solid #ffffff;
+	/* put 4 css-rules here below */
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	z-index: 10;
+	
+}
+
+#block-a{
+	border-color: red;
+	color: red;
+	/* put 2 css-rules here below */
+	bottom: 0;
+	right: 0;
+	
+}
+
+#block-b{
+	border-color: green;
+	color: green;
+	/* put 2 css-rules here below */
+	bottom: 0;
+	left: 0;
+
+}
+
+#block-c{
+	border-color: yellow;
+	color: yellow;
+	/* put 2 css-rules here below */
+	top: 0;
+	right: 0;
+
+}
+
+#block-d{
+	border-color: purple;
+	color: purple;
+	/* put 2css-rules here below */
+	top:0;
+	left: 0;
+
+}
+
+#container-2{
+	background-color: rgba(0,255,0,0.5);
+	/* put 6 css-rules here below */
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	z-index: 8;
+
+}
